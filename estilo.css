@@ -1,0 +1,48 @@
+body{
+    background-color: #fff176;
+    color: rgb(13, 13, 63);
+    font-family: ubuntu;
+    text-align: center;
+}
+
+h1{
+    font-size: clamp(4.5em, 2em + 5vw, 12em);
+    line-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.button {
+    background-color: rgb(209, 0, 209);
+    color: #ffffff;
+    padding: 20px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2px 4px;
+    border-radius: 40px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: white;
+    color: magenta;
+}
+df-messenger {
+    --df-messenger-bot-message:white; /* Cor do balão para mensagens do agente */
+    --df-messenger-button-titlebar-color: rgb(9, 63, 112); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+    --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
+    --df-messenger-chat-background-color: rgb(241, 241, 241); /*Cor do fundo.*/
+    --df-messenger-font-color: rgb(20, 20, 20); /*Cor da fonte para mensagens.*/
+    --df-messenger-input-box-color: white; /*Cor do segundo plano da caixa de entrada de texto.*/
+    --df-messenger-input-font-color: ; /*Cor da fonte da caixa de entrada de texto.*/
+    --df-messenger-input-placeholder-font-color: ; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
+    --df-messenger-minimized-chat-close-icon-color: ; /*Cor do ícone de fechamento na visualização de chat fechada.*/
+    --df-messenger-send-icon: rgb(0, 138, 138); /*Cor do ícone de envio na caixa de entrada de texto.*/
+    --df-messenger-user-message: rgb(118, 200, 255); /*Cor do segundo plano do balão para mensagens do usuário.*/
+}

@@ -1,4 +1,4 @@
-# DialogFlow-Messenger
-Integration of the "Dorinha" chatbot, linked to the SEAD (Distance Education Superintendence) extension project, to the dialogflow-messenger service.
+# DialogFlow Messenger
+Teste de integração do Dialogflow Messenger com o código de incorporação do agente Dorinha
 
 <h4>Access: https://rubenfontes.github.io/dialogflow-messenger/</h4>

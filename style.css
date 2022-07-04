@@ -1,28 +1,40 @@
-body{
-    background-color: #fff176;
-    color: rgb(9, 63, 112);
-    font-family: arial;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F4F4F4;
+}
+.container{
+    height: 40vh;
+    color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+}
 h1{
-    font-size: clamp(4.5em, 2em + 5vw, 12em);
+    color: rgb(30, 28, 28);
     line-height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
+    font-size: calc(4vw + 5vh);
     margin-bottom: 80px;
 }
-
 .button {
-    background-color: rgb(209, 0, 86);
-    color: #ffffff;
+    background-color: rgb(30, 28, 28);
+    color: #F4F4F4;
     padding: 20px 90px;
     text-align: center;
+    font-weight: 500;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     margin: 2px 4px;
     border-radius: 40px;
     cursor: pointer;
@@ -31,20 +43,29 @@ h1{
     transition-duration: 0.4s;
 }
 .button:hover {
-    background-color: white;
-    color:rgb(209, 0, 86);
+    background-color: #F4F4F4;
+    color: rgb(28, 28, 30);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media(max-width: 920px){
+    .button{
+        padding: 20px 90px;
+    }
+    h1{
+        margin-bottom: 50px;
+    }
 }
 df-messenger {
     --df-messenger-bot-message:white; /* Cor do balão para mensagens do agente */
-    --df-messenger-button-titlebar-color: rgb(9, 63, 112); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+    --df-messenger-button-titlebar-color: rgb(28, 28, 30); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
     --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
-    --df-messenger-chat-background-color: rgb(241, 241, 241); /*Cor do fundo.*/
-    --df-messenger-font-color: rgb(20, 20, 20); /*Cor da fonte para mensagens.*/
+    --df-messenger-chat-background-color: #F4F4F4; /*Cor do fundo.*/
+    --df-messenger-font-color: rgb(28, 28, 30); /*Cor da fonte para mensagens.*/
     --df-messenger-input-box-color: white; /*Cor do segundo plano da caixa de entrada de texto.*/
     --df-messenger-input-font-color: ; /*Cor da fonte da caixa de entrada de texto.*/
     --df-messenger-input-placeholder-font-color: ; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
     --df-messenger-minimized-chat-close-icon-color: ; /*Cor do ícone de fechamento na visualização de chat fechada.*/
-    --df-messenger-send-icon: rgb(0, 138, 138); /*Cor do ícone de envio na caixa de entrada de texto.*/
-    --df-messenger-user-message: rgb(118, 200, 255); /*Cor do segundo plano do balão para mensagens do usuário.*/
+    --df-messenger-send-icon: rgb(28, 28, 30); /*Cor do ícone de envio na caixa de entrada de texto.*/
+    --df-messenger-user-message: lightgrey; /*Cor do segundo plano do balão para mensagens do usuário.*/
 }
+

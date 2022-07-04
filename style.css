@@ -17,8 +17,8 @@ body{
     margin-right: 8%;
     text-align: center;
     position: absolute;
-    top: 35%;
-    transform: translateY(-35%);
+    top: 40%;
+    transform: translateY(-40%);
 }
 h1{
     color: rgb(28, 28, 30);
@@ -37,7 +37,7 @@ h1{
     margin: 2px 4px;
     border-radius: 40px;
     cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 4px 40px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.19);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
@@ -59,10 +59,10 @@ h1{
     }
     .button{
         font-size: .7rem;
-        padding: calc(1.2vh + 0.5vw) calc(4vh + 6vw);
+        padding: calc(1.5vh + 0.5vw) calc(5vh + 6vw);
     }
     h1{
-        font-size: calc(2vw + 3vh);
+        font-size: calc(2.5vw + 3vh);
         margin-bottom: 4vh;
     }
 }

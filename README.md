@@ -20,4 +20,4 @@ Teste de integração do Dialogflow Messenger com o código de incorporação do
 
 ## Acesso #
 
-<https://rubenfontes.github.io/dialogflow-messenger-integration>
+<strong><a href="https://rubenfontes.github.io/dialogflow-messenger-integration">link</a></strong>

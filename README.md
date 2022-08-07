@@ -5,8 +5,8 @@ Teste de integração do Dialogflow Messenger com o código de incorporação do
 
 | Comando | Descrição |
 | ------- | --------- |
-| `/start` | Inicia o bot | 
-| `/ajuda` | Mostra a lista de comandos disponíveis |
+| `/start` | Iniciar o agent | 
+| `/ajuda` | Mostrar a lista de comandos disponíveis |
 | `/criador` | Autores |
 | `/backup` | Realizar backup de turmas|
 | `/ticket` | Abrir chamado |
